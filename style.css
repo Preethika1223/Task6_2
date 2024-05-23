@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.checked {
+    color: yellow;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.feedback-form {
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group {
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.form-group label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-group input[type="radio"] {
+    margin-right: 5px;
+}
+.form-group textarea {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
